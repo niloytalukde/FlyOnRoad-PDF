@@ -153,11 +153,11 @@ export default function InvoiceGenerator() {
               </p>
               <p>
                 <span className="font-semibold">PICKUP DATE:</span>{" "}
-                {invoiceData.dateOfJourney}
+                {invoiceData.PickupDate}
               </p>
               <p>
                 <span className="font-semibold">PICKUP TIME:</span>{" "}
-                {invoiceData.timeOfJourney}
+                {invoiceData.PickupTime}
               </p>
               <p>
                 <span className="font-semibold">PICKUP LOCATION:</span>{" "}
@@ -175,11 +175,11 @@ export default function InvoiceGenerator() {
               </p>
               <p>
                 <span className="font-semibold">DROP DATE:</span>{" "}
-                {invoiceData.endOfJourney}
+                {invoiceData.DropDate}
               </p>
               <p>
                 <span className="font-semibold">DROP TIME:</span>{" "}
-                {invoiceData.journeyEndTime}
+                {invoiceData.DropTime}
               </p>
               <p>
                 <span className="font-semibold">DROP LOCATION:</span>{" "}
