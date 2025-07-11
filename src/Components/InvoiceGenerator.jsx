@@ -9,7 +9,6 @@ export default function InvoiceGenerator() {
 
   const [invoiceData, setInvoiceData] = useState({
     bookingId: "",
-   
     dateOfJourney: "",
     timeOfJourney: "",
     journeyEndTime: "",
