@@ -9,7 +9,7 @@ export default function InvoiceGenerator() {
 
   const [invoiceData, setInvoiceData] = useState({
     bookingId: "",
-    generatedBy: "",
+   
     dateOfJourney: "",
     timeOfJourney: "",
     journeyEndTime: "",
@@ -31,6 +31,7 @@ export default function InvoiceGenerator() {
     outstandingAmount: "",
     amountInWords: "",
     totalkm: "",
+    regesteroffice:"",
     carType: "",
   });
 
@@ -128,7 +129,7 @@ export default function InvoiceGenerator() {
               </p>
               <p>
                 <span className="font-semibold">REGISTERED OFFICE:</span> <br />
-                {invoiceData.pickupAddress}
+                {invoiceData.regesteroffice}
               </p>
               <p>
                 <span className="font-semibold">CUSTOMER NAME:</span> <br />
