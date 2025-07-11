@@ -79,7 +79,7 @@ export default function InvoiceGenerator() {
         <div
           ref={invoiceRef}
           className="px-8 py-6 p-4 relative text-[16px]"
-          style={{ border: "4px solid orange " }}
+          style={{ border: "4px solid orange"}}
         >
           {/* Invoice Header */}
           <div className="flex justify-center items-center ">
