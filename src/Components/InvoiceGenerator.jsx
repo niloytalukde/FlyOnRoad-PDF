@@ -1,8 +1,8 @@
 import  { useRef, useState } from "react";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
-import logo from "../assets/logo.jpg";
-import watermark from "../assets/short.png";
+import logo from "../../public/logo.jpg";
+import watermark from "../../public/short.png";
 
 export default function InvoiceGenerator() {
   const invoiceRef = useRef();
